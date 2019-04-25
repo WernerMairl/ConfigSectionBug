@@ -13,8 +13,8 @@ namespace CSB.Test
 
         private void ConsumeConfiguration(IConfiguration configuration, bool clone)
         {
-            Assert.Equal("myItem1", configuration["Item1"]);
-            Assert.Equal("myItem2", configuration["Item2"]);
+             Assert.Equal("myItem1", configuration["Item1"]);
+             Assert.Equal("myItem2", configuration["Item2"]);
 
             if (clone)
             {
